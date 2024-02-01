@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Замените 'YOUR_TOKEN' на ваш токен от BotFather
-TOKEN = 'YOUR_TOKEN'
+TOKEN = '6702111491:AAHcCeHRY0gEwqbh0FbZfejiU_85AzVFJGw'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Привет! Я бот для поиска товаров на Ozon. Введите /search <товар>, чтобы найти товар на Ozon.')
